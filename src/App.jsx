@@ -3,6 +3,8 @@ import './App.css'
 import HomeNavbar from './Component/HomeNavbar'
 import Emergency from './Component/Emergency'
 import Contact from './Component/Contact'
+import ChatBot1 from './Component/chatBot'
+
 
 function App() {
 
@@ -12,6 +14,7 @@ function App() {
           <Emergency/>
           <HomeNavbar/>
           <Contact/>
+          <ChatBot1/>
        </div>
   )
 }
