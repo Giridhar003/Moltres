@@ -31,7 +31,7 @@ export default function Contact() {
                         <button onClick={hideContact} className='card-button'>X</button>
                         <img src={Logo1} alt="Emergency" className='card-image' />
                         <p>Emergency Number</p>
-                        <a href="/" className='card-anchor'>101</a>
+                        <a href="tel:9164169379" className='card-anchor'>101</a>
                     </div>
                 </div>
             )}

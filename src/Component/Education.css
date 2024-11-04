@@ -1,0 +1,34 @@
+.Education-Card{
+    height: 400px;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.Education-subcard{
+    margin: 40px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;    
+}
+.Education-subcard:hover{
+    opacity: 0.8;
+    transform: scale(1.1);
+}
+.Education-img{
+    width: 400px;
+    height: 90%;
+}
+.info-container{
+    width: 900px;
+    height: 400px;
+    background-color: aquamarine;
+    margin: 50px;
+}
