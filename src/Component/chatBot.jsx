@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import chatbot_logo from '../assets/chatbot_logo.png';
 import Chatbot from 'react-chatbot-kit';
 import 'react-chatbot-kit/build/main.css';
-import config from './config.js';
-import MessageParser from './MessageParser.jsx';
-import ActionProvider from './ActionProvider.jsx';
+import config from './config';
+import ActionProvider from './ActionProvider';
+import MessageParser from './MessageParser';
 import './chatBot.css';
 
 export default function ChatBot1() {
@@ -35,8 +35,8 @@ export default function ChatBot1() {
                         <div className='chat-bot-place'>
                             <Chatbot 
                                 config={config}
-                                messageParser={MessageParser}
                                 actionProvider={ActionProvider}
+                                messageParser={MessageParser}
                             />
                         </div>
                     </div>
